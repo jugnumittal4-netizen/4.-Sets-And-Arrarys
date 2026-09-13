@@ -1,0 +1,27 @@
+list1 = {"apple","watermelon","grape","kiwi"}
+list2 = {"mango","grape","kiwi","melon","cucumber"}
+print("the original basket of fruits is:",list1)
+print("the second basket of fruits is:",list2)
+list1.add("banana")
+print("the updated basket of fruits is:",list1)
+cs = list1.intersection(list2)
+print("common snacks in both baskets:",cs)
+import array as arr
+sc = arr.array('i', [2,4,6,3])
+print
+("the original snack count is:",sc)
+sc.insert(2, 5)
+sc.append(8)
+print("the updated snack count is:",sc)
+c5 = sc.count(5)
+print("the count of 5 in the snack count is:",c5)
+sc.reverse()
+print("the reversed snack count is:",sc)
+print("")
+print("====SNACK BASKET ORGANISER====")
+print("basket of snacks is:",list1)
+print("second basket of snacks is:",list2)
+print("the common snacks in both baskets are:",cs)
+print("the updated snack count is:",sc)
+print("snack count of 5 is:",c5 )
+print("==================================")
